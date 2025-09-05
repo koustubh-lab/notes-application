@@ -14,7 +14,7 @@ public class CustomWebMvcConfigurer {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**") // adjust path as needed
-                        .allowedOrigins("https://notes-application-yow6.onrender.com") // frontend URL
+                        .allowedOrigins("https://notes-application-fawn.vercel.app/") // frontend URL
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
