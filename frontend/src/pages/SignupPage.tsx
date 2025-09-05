@@ -34,7 +34,6 @@ export default function SignupPage() {
   const {
     register,
     handleSubmit,
-    control,
     watch,
     formState: { errors },
   } = useForm<SignupValues>({
